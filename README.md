@@ -7,9 +7,10 @@ This is a demo application designed to show how to use various third-party libra
 - Morgan
 - CORS
 - Helmet
-- Module Alias
+- module-alias
 - Day.js
 - Underscore
+- express-fileupload
 
 ## How to Run Locally
 
@@ -17,7 +18,7 @@ This is a demo application designed to show how to use various third-party libra
 1. Move into the directory for this repository and run `npm install`
 1. The command `npm start` will run the server
 1. Open up http://localhost:3000 in your browser
-1. Try http://localhost:3000/api/random to retrieve a random number from this API
-1. Try http://localhost:3000/api/date/06-14-2022 (or use any other date in the url) to check if the date is in the future or not
+1. Go to http://localhost:3000/file-uploader to see a form to test uploading files
+1. You will be able to see any files you upload by using the filename as the path. For example: http://localhost:3000/fishy.jpg would be the path if your filename is `fishy.jpg`.
 
-Be sure to check your terminal to see the logs from Morgan. E.g. `GET /api/random 200 4.322 ms - 12`.
+Check out the [Express File Upload](https://github.com/richardgirges/express-fileupload) library for more information on how this works.

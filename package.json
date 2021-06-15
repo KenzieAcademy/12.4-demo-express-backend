@@ -13,6 +13,7 @@
     "cors": "2.8.5",
     "dayjs": "1.10.5",
     "express": "4.17.1",
+    "express-fileupload": "1.2.1",
     "helmet": "4.6.0",
     "module-alias": "2.2.2",
     "morgan": "1.10.0",
@@ -20,6 +21,7 @@
     "underscore": "1.13.1"
   },
   "_moduleAliases": {
-    "@api": "api"
+    "@api": "api",
+    "@db": "db"
   }
 }
